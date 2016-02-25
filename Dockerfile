@@ -6,9 +6,9 @@ ADD . /parse
 WORKDIR /parse
 RUN npm install
 
-ENV APP_ID thawing-reef-48153
-ENV MASTER_KEY 0di793O75G
-ENV DATABASE_URI mongodb://andychiang:jFI3C39jTh@ds035543.mongolab.com:35543/heroku_sqvsxfk1
+ENV APP_ID setYourAppId
+ENV MASTER_KEY setYourMasterKey
+ENV DATABASE_URI setMongoDBURI
 
 # Optional (default : 'parse/cloud/main.js')
 # ENV CLOUD_CODE_MAIN cloudCodePath
